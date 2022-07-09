@@ -136,5 +136,5 @@ void Database::PrintRange(Tree * node, int min, int max)
 void Database::PrintRange(int min, int max)
 {
 	cout << "\n========= ÍÀÐÓØÅÍÈß Â ÄÈÀÏÀÇÎÍÅ ÍÎÌÅÐÎÂ ÎÒ " << min << " ÄÎ " << max << ": " << "=========\n";
-	PrintRange(root, min, max);
+	PrintRange(root, min, max);  
 }
