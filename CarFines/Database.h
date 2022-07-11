@@ -47,7 +47,7 @@ public:
 		}
 	}
 
-	void ClearList(FinesList *&Head)
+	void ClearList(FinesList* &Head)
 	{
 		FinesList * curr = Head;
 		while (curr)

@@ -69,7 +69,7 @@ void Database::PrintAll(Tree* temp)
 	}
 }
 
-//Распечатка данных по заданному номеру//
+//Печать данных по заданному номеру (перегрузка)//
 Database::Tree * Database::PrintNumber(Tree *node, int input)
 {
 	if (node == NULL)
@@ -91,7 +91,7 @@ Database::Tree * Database::PrintNumber(Tree *node, int input)
 	}
 
 }
-//печать по номеру машины
+//печать по заданному номеру 
 void Database::PrintNumber(int input)
 {
 	Tree * node = PrintNumber(root, input);	
