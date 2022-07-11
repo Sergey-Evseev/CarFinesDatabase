@@ -91,7 +91,7 @@ Database::Tree * Database::PrintNumber(Tree *node, int input)
 	}
 
 }
-
+//печать по номеру машины
 void Database::PrintNumber(int input)
 {
 	Tree * node = PrintNumber(root, input);	
