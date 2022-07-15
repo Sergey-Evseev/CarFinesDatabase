@@ -29,8 +29,8 @@ void Database::DeleteAll(Tree* temp)
 
 void Database::add(Tree* &head, Tree* parent, int number, string str)
 {
-	cout << "add(Tree* &head, Tree* parent, int number, string str): " << "\nhead=" << head << " " << "parent=" << parent << " " 
-		<< "number=" << number << " " << "str=" << str<< endl; //строка для отладки
+	//cout << "add(Tree* &head, Tree* parent, int number, string str): " << "\nhead=" << head << " " << "parent=" << parent << " " 
+	//	<< "number=" << number << " " << "str=" << str<< endl; //строка для отладки
 	Tree* temp = new Tree;
 	temp->number = number;
 	temp->list = NULL;
@@ -55,9 +55,9 @@ void Database::add(Tree* &head, Tree* parent, int number, string str)
 
 void Database::add(int value, string str)
 {
-	cout << "add(int value, string str): " << "\nvalue=" << value << "  " << "str=" << str << endl;//строка для отладки
+	//cout << "add(int value, string str): " << "\nvalue=" << value << "  " << "str=" << str << endl;//строка для отладки
 	add(root, NULL, value, str);
-	cout << "add(int value, string str) (return): " << "\nroot=" << root << " " << "value=" << value << " " << "str=" << str << "\n\n"; //строка для отладки
+	//cout << "add(int value, string str) (return): " << "\nroot=" << root << " " << "value=" << value << " " << "str=" << str << "\n\n"; //строка для отладки
 }
 
 //Метод печати полной базы данных//
